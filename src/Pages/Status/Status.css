@@ -1,0 +1,74 @@
+.Status{
+    text-align: center;
+    color: rgb(78, 66, 147);
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 15px;
+    margin-top: 00px;
+  }
+  
+  
+  .t1{
+    color:rgb(74, 129, 103);
+  }
+  
+  .c{
+  text-align: center; 
+  text-shadow: 10px;
+  height:30px;
+  width: 150px;
+  font-size: 20px;
+  }
+  
+  .c1{
+    text-align: center; 
+    height:30px;
+    width: 150px;
+    text-shadow: 10px;
+    font-size: 20px;
+    }
+  
+  .s1{
+    color: black;
+    font-weight: none;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .pc{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-size: 1px;
+  }
+  
+  
+  .s2{
+    color: black;
+    font-weight: none;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  
+  .s3{
+    color: black;
+    font-weight: none;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  
+  .b{
+    color: white;
+    width: 210px;
+    height: 40px;
+    border-color: white;
+    border-radius: 25px;
+    box-shadow: none;
+    font-size: 20px;
+  }
+  .b:hover{
+    color: black;
+    background: rgb(255, 255, 95);
+  }
+  

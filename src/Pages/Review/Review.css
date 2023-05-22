@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Review {
+  text-align: center;
+}
+
+
+.Review h1{
+  text-align: center;
+  background-color: rgb(183, 196, 200);
+  color: rgb(246, 246, 246);
+  border-radius: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  -webkit-text-stroke: 2px rgb(70, 69, 69);
+}
+
+.Review h2{
+  padding: 20px;
+  top: 550px;
+}
+
+.Review-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.Review-header {
+  background-color: #1a1a16;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+

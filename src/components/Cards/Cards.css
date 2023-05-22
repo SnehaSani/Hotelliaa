@@ -1,0 +1,64 @@
+#growth{
+  overflow-y: scroll;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(12, 0, 123);
+
+  
+  }
+.cards{
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  margin-left: 30px;
+  width: 400px;
+  min-width: 400px;
+  height: 340px;
+  display: inline-block;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card .content{
+  text-align: center;
+}
+.card .content .category {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+  }
+.card .content .bed {
+    font-size: medium;
+  }
+.card .content .price {
+    font-size: small;
+  }
+
+.card .image img {
+  padding: 8px;
+    height: 180px;
+    width: 300px;
+  }
+.book{
+  color: white;
+  width: 110px;
+  height: 40px;
+  border-color: white;
+  border-radius: 25px;
+  box-shadow: none;
+}
+.book:hover{
+  color: black;
+  background: rgb(255, 255, 95);
+}
